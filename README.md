@@ -4,22 +4,20 @@
 Python lib for LINE unofficial messaging API.
 
 ## Usage
-### Register LINE account
 ```python
 from LINEUN import LINE
 line = LINE()
+```
+### Register LINE account
+```python
 line.registerWithPhoneNumber("Your phone number", "Your country code")
 ```
 ### Login to LINE account with QR Code
 ```python
-from LINEUN import LINE
-line = LINE()
 line.loginWithQRCode()
 ```
 ### Login to LINE account with Mail
 ```python
-from LINEUN import LINE
-line = LINE()
 line.loginWithMail("Your mail", "Your password")
 ```
 
